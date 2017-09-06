@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &170290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488116}
+  - 114: {fileID: 11442312}
+  m_Layer: 0
+  m_Name: BackgroundGeneration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488116
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11442312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb1df5574af99a4189bdcf7dabf32d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
+  speed: 0.7
+  levels:
+  - tiles:
+    - {fileID: 180782, guid: d6270040e84f07a4f810acc1d25ad984, type: 2}
+    probability: 8
+    decorations:
+    - decoration: {fileID: 170880, guid: 6b3f53cb1fa982341a70bf0256b5b2bd, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 116680, guid: c5cf8debf4616b54caa51444b61e3aac, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 198354, guid: 7fb39f3e424db2f4b9350e004e38de31, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 143136, guid: 71d5d59e3b2626f4a82de1071c59f82a, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 169724, guid: e4b3919736d037a4b9b0cc0da2ca9094, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 135086, guid: d1ddb2959f91e1b4c9bf7264e8d27e44, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 188960, guid: 480609f02fb369f41984bfeb62a9d619, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 136282, guid: 167f80b05cf98d54597a65bb42c10ca8, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 170124, guid: 2f04869fc94d1d04ab6d3602a54c03d8, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 164644, guid: e0607d8a59d19fc429d50ca6f30c4cba, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 101522, guid: 7cc556d3c92d0434597858e65308619f, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 181956, guid: 73ef7a215a317b349ba551c0fe6b38d6, type: 2}
+      size: {x: 1, y: 2}
+  - tiles:
+    - {fileID: 136816, guid: 48081dd897a6db84d85e6657009e2d9a, type: 2}
+    probability: 2
+    decorations:
+    - decoration: {fileID: 147806, guid: 40dc341e6fa12db4882bb22eacc04156, type: 2}
+      size: {x: 1, y: 2}
+    - decoration: {fileID: 138562, guid: 71d041088a6696f4c9ef644d38aca044, type: 2}
+      size: {x: 1, y: 2}
+    - decoration: {fileID: 138868, guid: b32399226e7b8e348995c92691a495e1, type: 2}
+      size: {x: 1, y: 1}
+  - tiles:
+    - {fileID: 108694, guid: 03740d3cfc073134bb35a28b9f5f1e8b, type: 2}
+    probability: 8
+    decorations:
+    - decoration: {fileID: 112120, guid: b2f5ff1b4095038439ef6526f0ca88e1, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 169524, guid: 7ddaf7f1348828244aa1d42c3e4c81ad, type: 2}
+      size: {x: 1, y: 2}
+    - decoration: {fileID: 124630, guid: 3be356db6e8adde49a2ca418270d0080, type: 2}
+      size: {x: 0, y: 0}
+    - decoration: {fileID: 193354, guid: a0eeb4f77befd934eb789ff20a79e018, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 125288, guid: a7076ca2f1fe4d34fa3c8c827dbdc773, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 167188, guid: 6a771c17405b2db418dae7287e4e943a, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 120602, guid: 166a4bfd566b14e4ea9871d1cfb19b33, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 105848, guid: 150ad83dfe554404c8cf3861a91b8106, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 124630, guid: 3be356db6e8adde49a2ca418270d0080, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 130404, guid: 2db32b88c1babaa498badadf2e37139d, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 137508, guid: 87a9cf24a55e132428f4a835d8f2ba1b, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 153664, guid: 7276058f105a04c4bb0a4f99ac0e3584, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 137034, guid: 9a15e65ab2a773f4a91c611a85480889, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 153414, guid: 9a669917c29b1d744b2db9ecfb7d660c, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 115446, guid: 9ee387b5f8eff7d4ebda42b8053b6038, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 110076, guid: c185394f438271b41bfc7a004a831f5c, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 126536, guid: 4c015f7c4081cbe45a21729c0e441627, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 190794, guid: c3f71057242fe194bb1b1c88f9ea83ef, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 134590, guid: a2edeab9be012e24ba409984e2fe9b26, type: 2}
+      size: {x: 1, y: 1}
+    - decoration: {fileID: 103022, guid: b74284027348fbe4ab50bedd2edc3d14, type: 2}
+      size: {x: 1, y: 1}
+  - tiles:
+    - {fileID: 181430, guid: c27308ab48cba7140bdaae6f28af7d21, type: 2}
+    probability: 8
+    decorations: []
+  fieldSize: {x: 23, y: 16}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 170290}
+  m_IsPrefabParent: 1

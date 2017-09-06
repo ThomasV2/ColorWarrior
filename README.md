@@ -1,1 +1,1 @@
-# ColorWarrior
+ColorWarrior est un projet pour le module GameProject II de Keimyung University.

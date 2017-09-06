@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &192560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452584}
+  - 114: {fileID: 11412772}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452584
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11412772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28754790ae9671d40898dd8dfcec9e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero: {fileID: 0}
+  levels:
+  - speed: 2
+    timer: 4
+    formations:
+    - {fileID: 146150, guid: 88de8bc08bd3bb24ca63f3d76417c7b7, type: 2}
+    - {fileID: 170872, guid: 60a21f8ee59e3c043a1365c225f39672, type: 2}
+    - {fileID: 106228, guid: 7c1ecc1e7a403814da071879ad0fa40e, type: 2}
+    - {fileID: 153674, guid: bf162d6b7611e924595d1fd490184ce9, type: 2}
+    - {fileID: 198510, guid: 439af5aa33691ac4885a5e92d6d436c2, type: 2}
+  - speed: 2
+    timer: 4
+    formations:
+    - {fileID: 169612, guid: 377167d253627ed48b0166b6058be45b, type: 2}
+    - {fileID: 174874, guid: f65e8ebb8e9037846b841cc10d215f80, type: 2}
+    - {fileID: 198510, guid: 439af5aa33691ac4885a5e92d6d436c2, type: 2}
+    - {fileID: 153674, guid: bf162d6b7611e924595d1fd490184ce9, type: 2}
+    - {fileID: 170872, guid: 60a21f8ee59e3c043a1365c225f39672, type: 2}
+    - {fileID: 146150, guid: 88de8bc08bd3bb24ca63f3d76417c7b7, type: 2}
+  - speed: 1.5
+    timer: 5
+    formations:
+    - {fileID: 154586, guid: 41e8f6077da2e21448cfd4d08fba9e48, type: 2}
+    - {fileID: 117286, guid: 0cb08d2e449a95d4b8d066cb1fa7159f, type: 2}
+    - {fileID: 123158, guid: 06ea625a2fb53734e8b934f729e91e21, type: 2}
+    - {fileID: 174874, guid: f65e8ebb8e9037846b841cc10d215f80, type: 2}
+  - speed: 2
+    timer: 3.5
+    formations:
+    - {fileID: 179058, guid: 1a0b4e60faad7c64ebc53741c04d627c, type: 2}
+    - {fileID: 183578, guid: c056ca8e1160fd34cabcffbaee665b69, type: 2}
+    - {fileID: 169612, guid: 377167d253627ed48b0166b6058be45b, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 146438, guid: c74d210e5e243c7439d246a3aef18b96, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 146438, guid: c74d210e5e243c7439d246a3aef18b96, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 175838, guid: c459f79320d66fc41965f2e45043b0e0, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 175838, guid: c459f79320d66fc41965f2e45043b0e0, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 175838, guid: c459f79320d66fc41965f2e45043b0e0, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 193424, guid: 86eea969fcd6d07439fc1a90fa525efc, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 136652, guid: 5a5358d250a622d4eb501edec0e11054, type: 2}
+  - speed: 2
+    timer: 5
+    formations:
+    - {fileID: 136652, guid: 5a5358d250a622d4eb501edec0e11054, type: 2}
+  level: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 192560}
+  m_IsPrefabParent: 1

@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShieldWalk
+  m_Controller: {fileID: 9100000, guid: fc46f77ac7dfd8d4cbecc914867c795c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 770e0487378d79748bbea422bd6209b6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 20b8c4a0da8ca7547abaa54f054fbc7c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: acfa10d4c7f2ed64a9262118ad8298b8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: acfa10d4c7f2ed64a9262118ad8298b8, type: 2}
